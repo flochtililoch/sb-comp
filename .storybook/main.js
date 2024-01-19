@@ -16,6 +16,18 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  refs: {
+    ref1: {
+      title: "Ref1",
+      url: "http://localhost:6007/",
+      expanded: false,
+    },
+    ref2: {
+      title: "Ref2",
+      url: "http://localhost:6008/",
+      expanded: false,
+    },
+  },
   staticDirs: ["../public"],
 };
 export default config;
